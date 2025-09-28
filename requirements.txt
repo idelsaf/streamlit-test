@@ -1,5 +1,6 @@
 streamlit
 Pillow
 transformers
+torch
 tensorflow
 tf-keras

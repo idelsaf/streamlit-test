@@ -4,10 +4,6 @@ from PIL import Image
 #Заголовок приложения
 st.title("Распознавание изображений с помощью Hugging Face")
 
-#Добавим ссылку на чат в телеграм
-url = "https://t.me/+qHHDOyGAj9llM2Qy"
-st.write("Ссылка для перехода в чат с материалами [тык](%s)" % url)
-
 #Добавляем блок с загрузкой изображения от пользователя
 uploaded_file = st.file_uploader("Загрузите изображение", type = ["jpg", "jpeg", "png"])
 
